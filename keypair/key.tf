@@ -1,0 +1,4 @@
+resource "aws_key_pair" "myec2key" {
+  key_name   = "ec2key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCd5RcVpoImwaifM5+Hw+gchzCDUsQbpntL4qTHKU1kFGZMZWd9yZqfE9KnhtRauh0GLlBpxNl8mf51wAuRKNdfNyoQ0uFyrONIXkzYqFqjlb/VAja7lWkQrNjShjivrjHsIxm5MFloDfNagWKT4cO2B2jXU+SowCNqQrnKvJuLcjMPvgSWknm7sF8wTpjCifmlZKW3Nhv2q7xMBgDn5sUC4ncx5ujwXxIOE69Zg818gYWabG4eWB2Wjoct0zsKg+HsKPx/Yk0GYl0QUv6sweBPHxlsC/hgSd3oLUUheoMrnv+Bn26iIzHA3G1YhLCbm3E69cZ9waaib+sT6hboGjYd rsa-key-20220112"
+}
